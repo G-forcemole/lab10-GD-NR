@@ -41,15 +41,20 @@ class TestCalculator(unittest.TestCase):
             log(-2, 10)
 
     def test_multiply(self):
-        # Test that multiply returns the correct product.
+       
         self.assertEqual(multiply(3, 4), 12)
         self.assertEqual(multiply(-2, 5), -10)
         self.assertAlmostEqual(multiply(2.5, 4), 10.0)
 
+    def test_divide(self):
+       a.
+        self.assertEqual(div(2, 10), 5)   # 10 / 2 == 5
+        self.assertEqual(div(4, 20), 5)   # 20 / 4 == 5
 
+        self.assertEqual(div(2.5, 10.0), 4.0)
 
     def test_log_invalid_argument(self):
-        # Test that log raises a ValueError with an invalid base or invalid argument.
+
         with self.assertRaises(ValueError):
             log(1, 100)  # base 1 is invalid
         with self.assertRaises(ValueError):
