@@ -1,4 +1,11 @@
+#https://github.com/G-forcemole/lab10-GD-NR/blob/main/test_calculator.py
+# Partner 1: Gabriel Dos Santos
+# Partner 2: Noah Robinson
+
+
 import math
+
+
 
 def square_root(a):
     if a < 0:

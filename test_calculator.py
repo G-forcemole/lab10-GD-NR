@@ -1,3 +1,9 @@
+#https://github.com/G-forcemole/lab10-GD-NR/blob/main/test_calculator.py
+# Partner 1: Gabriel Dos Santos
+# Partner 2: Noah Robinson
+
+
+
 import unittest
 import math
 from calculator import add, sub, div, log, multiply, log, hypotenuse, square_root
