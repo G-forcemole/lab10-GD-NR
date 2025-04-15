@@ -41,13 +41,13 @@ class TestCalculator(unittest.TestCase):
             log(-2, 10)
 
     def test_multiply(self):
-       
+
         self.assertEqual(multiply(3, 4), 12)
         self.assertEqual(multiply(-2, 5), -10)
         self.assertAlmostEqual(multiply(2.5, 4), 10.0)
 
     def test_divide(self):
-       a.
+       
         self.assertEqual(div(2, 10), 5)   # 10 / 2 == 5
         self.assertEqual(div(4, 20), 5)   # 20 / 4 == 5
 
